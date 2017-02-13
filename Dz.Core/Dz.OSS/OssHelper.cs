@@ -15,7 +15,7 @@ namespace Dz.OSS
         /// <summary>
         /// 上传的文件名的前缀
         /// </summary>
-        private static string _preFolder => "wow/" + DateTime.Now.ToString("yyyyMM");
+        private static string _preFolder => "wow/" + DateTime.Now.ToString("yyyyMM") + "/";
 
         /// <summary>
         /// Oss存储空间名称
