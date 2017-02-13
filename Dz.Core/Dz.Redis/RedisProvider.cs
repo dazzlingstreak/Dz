@@ -156,5 +156,21 @@ namespace Dz.Redis
 
         #endregion
 
+        #region Hash
+
+        #endregion
+
+        #region List
+
+        #endregion
+
+        #region Set
+
+        #endregion
+
+        #region Sorted set
+
+        #endregion
+
     }
 }
