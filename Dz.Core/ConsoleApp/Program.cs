@@ -11,7 +11,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            RedisProvider.StringSet("Dz.Redis", "ah yo", TimeSpan.FromMinutes(1));
+            RedisProvider.StringSet("Dz.Redis", "ah yo22", TimeSpan.FromMinutes(1));
             Console.WriteLine(RedisProvider.StringGet("Dz.Redis"));
             Console.ReadLine();
         }
