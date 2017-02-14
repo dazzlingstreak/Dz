@@ -172,5 +172,21 @@ namespace Dz.Redis
 
         #endregion
 
+        #region clear
+
+        /// <summary>
+        /// 删除键
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="conn"></param>
+        /// <returns></returns>
+        public static bool KeyDelete(string key, ConnectionMultiplexer conn = null)
+        {
+            var database = GetWriteDb(conn);
+            return database.KeyDelete(key);
+        }
+
+        #endregion
+
     }
 }
