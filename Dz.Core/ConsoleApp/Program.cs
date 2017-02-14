@@ -31,6 +31,22 @@ namespace ConsoleApp
             //    Console.ReadLine();
             //}
 
+            //using (var stream = new FileStream(@"D:\DwProjects\23.jpg", FileMode.Open))
+            //{
+            //    var OssFileName = OssHelper.AsyncPutObject("测试文件3.jpg", stream);
+            //    Console.WriteLine(OssFileName);
+            //    Console.ReadLine();
+            //}
+
+            //using (var stream = new FileStream(@"E:\Tools\mysql-5.6.24-win32.1432006610.zip", FileMode.Open))
+            //{
+            //    var OssFileName = OssHelper.UploadMultipart("mysql.zip", stream);
+            //    Console.WriteLine(OssFileName);
+            //    Console.ReadLine();
+            //}
+
+            //var reffers = OssHelper.GetBucketReferer();
+
             //OssHelper.DeleteObject("测试文件.jpg");
 
             //OssHelper.GetObject("测试文件.jpg", @"D:\DwProjects\hh.jpg");
