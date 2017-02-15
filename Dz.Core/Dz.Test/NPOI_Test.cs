@@ -1,6 +1,7 @@
 ﻿using Dz.NPOI;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +20,12 @@ namespace Dz.Test
         [Fact]
         public void TestExport()
         {
-            ExcelExport.Export(@"C:\Users\Administrator\Desktop\客户导入.xlsx");
+            var customers = ExcelImport.Import<CustomerTest>(@"C:\Users\Administrator\Desktop\客户导入.xlsx");
+            var bytes = ExcelExport.Export(customers, @"C:\Users\Administrator\Desktop\客户导出模板.xlsx", "客户导出", 1, new List<int>() { 6 });
+            using (var fs = new FileStream(@"C:\Users\Administrator\Desktop\客户导出.xlsx", FileMode.OpenOrCreate, FileAccess.Write))
+            {
+                fs.Write(bytes, 0, bytes.Length);
+            }
         }
     }
 
