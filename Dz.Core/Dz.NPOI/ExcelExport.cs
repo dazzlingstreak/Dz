@@ -1,5 +1,4 @@
-﻿using Dz.Core.Random;
-using NPOI.HSSF.UserModel;
+﻿using NPOI.HSSF.UserModel;
 using NPOI.SS.UserModel;
 using NPOI.XSSF.UserModel;
 using System;
@@ -28,19 +27,17 @@ namespace Dz.NPOI
                 throw new FileNotFoundException();
             }
             var extension = Path.GetExtension(filePath);
-            var copyTempPath = AppDomain.CurrentDomain.BaseDirectory + @"\" + Path.GetFileNameWithoutExtension(filePath) + DateTime.Now.ToString("yyyyMMddHHmmssfff") + "_" + new RNGCryptoServiceProvider().Next(100, 1000) + extension;
-            File.Copy(filePath, copyTempPath);
 
             if (extension.Equals(".xls"))
             {
-                using (var stream = new FileStream(copyTempPath, FileMode.Open, FileAccess.Read))
+                using (var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
                 {
                     return new HSSFWorkbook(stream);
                 }
             }
             else if (extension.Equals(".xlsx"))
             {
-                using (var stream = new FileStream(copyTempPath, FileMode.Open, FileAccess.Read))
+                using (var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
                 {
                     return new XSSFWorkbook(stream);
                 }
