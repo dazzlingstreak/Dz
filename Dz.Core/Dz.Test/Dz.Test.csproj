@@ -33,7 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -55,13 +59,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Org\City.cs" />
+    <Compile Include="Model\Org\LoanCity.cs" />
+    <Compile Include="Model\Org\Province.cs" />
     <Compile Include="NPOI_Test.cs" />
+    <Compile Include="Org_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Dz.Core\Dz.Core.csproj">
+      <Project>{fd40d398-a76e-4673-aa1b-254371274d67}</Project>
+      <Name>Dz.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Dz.NPOI\Dz.NPOI.csproj">
       <Project>{bb0015cf-030c-4dea-8b08-4b3ede24f23a}</Project>
       <Name>Dz.NPOI</Name>
