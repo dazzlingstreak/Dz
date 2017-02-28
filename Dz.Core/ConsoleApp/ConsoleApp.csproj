@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="委托和事件\DelegateEvent_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
