@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
+    //注：使用事件的好处，而不是使用常规的IF判断 ：if(ban){ 解说员干什么，选手干什么}，用了if,那么天辉的Ban方法就会很复杂，如果又有了现场观众需要干什么，网络直播需要干什么，就要不停的扩展修改这个方法。
+    //使用事件的话，Ban方法不用修改，只需要将其他的情况注册到事件下，就可以了
     /// <summary>
     /// Dota2 -天辉
     /// </summary>
