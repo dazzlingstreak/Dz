@@ -83,6 +83,8 @@ namespace ConsoleApp
     /// </summary>
     class Player
     {
+        public string Name { get; set; }
+
         public static void AfterBanEnd(string hero)
         {
             Console.WriteLine($"选手想：Ban了{hero},我得想想比赛套路...");
@@ -102,6 +104,7 @@ namespace ConsoleApp
         {
             Console.WriteLine($"选手想：Pick了{hero}，想下这个英雄害怕什么，接下去要不要BAN掉什么...");
         }
+
     }
 
 }

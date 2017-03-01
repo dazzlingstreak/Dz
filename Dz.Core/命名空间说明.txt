@@ -1,0 +1,200 @@
+﻿System 命名空间包含了定义数据类型、事件和事件处理程序等基本类；
+
+System.Data 命名空间包含了提供数据访问功能的命名空间和类；
+
+System.IO 命名空间包含了数据流读写相关功能的类；
+
+System.Windows.Forms 命名空间包含了Windows 窗体开发所需要的工具和窗体的类；
+
+System.Web 命名空间包含了所有网站开发相关的命名空间和类。   
+
+Microsoft.Csharp
+包含支持用C#语言进行编译的代码
+ Microsoft.Jscript
+包含支持用Jscript语言进行编译和代码生成的Jscript运行库和类
+ Microsoft.VisualBasic
+包含Visual Basic.NET运行库。此运行库于Visual Basic.NET语言一起使用。此命名空间包含支持Visual Basic.NET语言进行编译和代码生成类。
+ Microsoft.Win32
+提供两种类型的类：处理由操作系统引发的事件的类和对系统注册表进行操作的类。
+ System
+最重要的类，包含用于定义常用值和引用数据类型、事件和事件处理程序、接口、属性、和处理异常的基础类和基类。
+ System.CodeDom
+包含用于表示源代码文档的元素和结构的类
+ System.CodeDom.Compiler
+包含源代码模型的结构，管理源代码所生成的编译的类。
+ System.Collections
+包含定义各种对象集合（如列表、队列、位数组、散列表和词典）的接口和类。
+ System.Collections.Specialized
+包含中用的强类型集合；例如，链接表词典、位向量以及值包含字符串的集合。
+ System.CommponentModel
+提供用于实现组件和空间的运行时和设计时行为的类。此命名空间包括用于属性和类型转换器的事件、数据源绑定和组件授权的基类和接口。
+ System.ComponentModel.Design
+使开发人员可以生成自定义用户控件，并将这些控件包括在设计时环境中以便与供应商空间一起使用。
+ System.ComponentModel.Design.Serialization
+提供设计器所进行的组件序列化支持。此命名空间中的类可用于提哦能够自定义序列化程序、管理特定类型的序列化、管理设计器加载和设计器序列化，以及优化设计器重新加载。
+ System.Configuration
+提供以变成方式访问.NET空间配置和处理配置文件（.config文件）中的错误的类和接口。
+ System.Configuration.Assemblies
+包含用于配置程序集的类。
+ System.Configuration.Install
+提供为组件编写自定义安装程序的类。Installer类是.NET框架中所有自定义安装程序的基类。
+ System.Data
+基本上由构成ADO.NET结构的类组成。使用ADO.NET结构可以生成用于有效管理多个数据源中的数据组件。在断开连接的方案（如Internet）中，ADO.NET提供可以在多城系统中请求、更新和协调数据的工具。ADO.NET结构也可以在客户端应用程序或ASP.NET创建的HTML页中实现。
+ System.Data.Common
+包含由.NET数据提供程序共享的类。.NET数据提供程序描述用于在托管空间中访问数据源的类的集合。
+ System.Data.OleDb
+封装OLE DB.NET数据提供程序。.NET数据提供程序描述用于在托管空间中访问数据源的类的集合
+ System.Data.SqlClient
+封装SQL Server.NET数据提供程序。.NET数据提供描述用于在托管空间中访问数据源的类的集合。
+ System.Data.SqlTypes
+提供用于SQL Sserver中本机数据类型的类。这些类提供其他数据类型更安全、更快速的替代物。使用此命名空间中的类有助于防止在可能发生精度损失的情况中出现的类行转换错误。
+ System.Diagnostics
+提供允许与系统进程、事件日志和性能计数器进行交互的类。此命名空间还提供可以调试应用程序和跟踪代码执行的类。
+ System.Diagnostics.SymbolStore
+提供允许读取和写入调适符号信息的类。面向.NET框架的编译器可以将调试符号信息存储到程序员的数据库（PDB）文件中。调试器和代码分析器工具可以在运行时读取调试符号信息。
+ System.DirectioyServices
+提供从托管代码轻松访问Active Directory的方法。
+ System.Drawing
+提供对GDI+基本形功能的访问。System.Drawing.Drawing2D,System.Drawing.Imaging和System.Drawing.Text命名空间提供了更高级的功能
+ System.Drawing.Design
+包含扩展设计时用户界面（UI）逻辑和绘制的类。可以进一步扩展此设计时功能，以创建自定义工具箱项、类型特定的值编辑器（可编辑和以图形方式表示所支持的类型的值）或类型转换器（可在特定类型之间转换值）。
+ System.Drawing.Drawing2D
+提供高级的二维和向量图形功能。此命名空间包括渐变笔、Matrix类（用于定义几何转换）和GraphicsPath类。
+ System.Drawing.Imaging
+提供高级的GDI+图象处理功能
+ System.Drawing.Printing
+提供与打印相关的服务。
+ System.Drawing.Text
+提供高级的GDI+版式功能。此命名空间中的类使用户可以创建和使用字体集合。
+ System.EnterpriseServices
+为企业级应用程序提供重要的基础结构。COM+为企业级环境中部署的组件编程模型提供服务结构。此命名空间为.NET框架对象提供对COM+服务的访问，使.NET框架对象更适用于企业级应用程序。
+ System.EnterpriseServices.CompensatingResourceManager
+提供在托管代码中使用补偿资源管理器（CRM）的类。CRM是由COM+提供的一项服务，使用户可以在Microsoft分布式事务处理协调器（DTC）事务中包括非事务对象。虽然CRM不提供完整资源管理器的功能，但它们却通过恢复日志提供事务性和持久性。
+ System.Globalization
+包含定义区域性相关信息的类，这些信息包括语言、国家/地区、正在使用的日历、日期的格式模式、货币、数字以及字符串的排序顺序。
+ System.IO
+包含允许对数据流和文件进行同步和异步读写的类型。
+ System.IO.IsolatedStorage
+包含允许船舰和使用独立存储区的类型。通过使用这些存储区，可以读写信任度较低的代码无法访问的数据，防止公开可保存在文件系统其他位置的敏感信息。数据存储在独立于当前用户和代码所在的程序集的数据仓中。
+ System.ManageMent
+提供对一组丰富的管理信息和管理事件（有关符合Windows管理规范（WMI）基础机构的系统、设备和应用程序的）的访问。
+ System.Management.Instrumentation
+提供在规范应用程序管理并通过WMI向潜在用户公开管理信息和事件时必须的类。这样，Microsoft Application Center 或 Microsoft Operations Manager 等用户者就可以轻松地管理您的应用程序。而管理员脚本或其他应用程序（托管应用程序和非过关应用程序）也可以监视和配置您的应用程序。
+ System.Messaging
+提供用户连接、监视和管理网络上的消息列队以及发送、和接受或查看消息的类。
+ System.Net
+为当前网络采用的多种协议提供简单的编程接口。WebRequest和WebResponse类构成所谓的可插接式协议的基础，该协议式一种网络服务的实现，它使您可以开发使用Internet资源的应用程序，而不必考虑各个协议的具体细节。
+ System.Net.Sockets
+为需要严格控制网络访问的开发人员提供Windows套接字（Winsock）接口的托管实现。
+ System.Refection
+包含提供已加载类型、方法和字段的托管视图的类和接口，并具由动态创建和调用类型的能力。
+ System.Reflection.Emit
+包含允许编译器或工具发出元数据和Micosoft中间语言（MSIL）并在磁盘上生成PE（可选）的类。这些类的主要客户端是脚本引擎和编译器。
+ System.Runtime.CompilerServices
+为使用托管代码的编译编写器提供功能，以影响在公共语言运行库运行时行为的元数据中制定的属性。此命名空间中的类值用于编译器编译器。
+ System.Runtime.InteropServices
+提供用于通过.NET访问COM对象和本机API的类的集合。此命名空间中的类型分为一下功能区：属性、异常、COM类型的托管定义、包装、类型转换器和Marshal类。
+ System.Runtime.InteropServices.Expando
+包含Iexpando接口，此接口允许通过添加活移除对象的成员来修改对象。
+ System.Runtime.Remoting
+提供允许开发人员创建和配置分布式应用程序的接口。
+ System.Runtime.Remoting.Activation
+提供支持服务器和客户端远程对象激活的类和对象。
+ System.Runtime.Remoting.Channels
+包含支持和处理信道和信道接收器的类，这些信道和信道接受器在客户端远程对象调用方法时用作传输媒介。
+ System.Runtime.Remoting.Channels.Http
+包含使用HTTP协议与远程位置之间相互传输消息和对象的信道。默认情况下，HTTP信道以SOAP格式对对象和方法调用进行编码以便传输，但在信道的配置属性中也可以指定他编码和解码格式化程序接收器。
+ System.Runtime.Remoting.Channels.Tcp
+包含使用TCP协议与远程位置之间相互传输消息和对象的信道。默认情况下，TCP信道以二进制格式对对象和方法调用进行编码以便传输，但在信道的配置属性中也可以指定其编码和解码格式化程序接收器。
+ System.Runtime.Remoting.Contexts
+包含定义所有对象所驻留的上下文的对象。上下文时个有序的属性序列，用与定义其中的对象所处的环境。上下文时在对象的激活过程中创建的，这些对象被配置为要求某些自定服务，如同步，事务，实时（JIT）激活、安全性。多个对象可以存留在以个上下文内。
+ System.Runtimg.Remoting.Lifetime
+包含管理远程对象生存期的类。传统上，分布式垃圾回收功能使用引用计数和Ping来控制对象的生存期、这种机制在每一项服务只有较少的客户端时可以正常工作，但是当每一项服务有几千个客户端时就不能正常工作了。远程处理生存期服务将每一项服务与一个租约关联，当租约到期时，就会删除该服务。生存期服务可以起到传统的分布式垃圾回收器的作用，并在每一项服务的客户端数量增加时很好的调整。
+ System.Reuntime.Remoting.Metadata
+包含可用于为对象和字段定义SOAP的生成和处理的类和属性。此命名空间中的类可用于指示SOAPAction、类型输出、XML元素名和SML命名空间URL方法。
+ System.Runtime.Remoting.Metadata.W3cXsd2001
+包含有WWW联合会（W3C）在2001年定义的XML架构定义（XSD）。W3C中的“XML Schema Part2:Data type”（XML架构第二布冯：数据类型）规范确定了各种数据类型的格式和行为。此命名空间包含符合W3C规范的数据类型的包装类。所有日期和时间类型都符合ISO标准规范。
+ System.Runtime.Remoting.MetadataServices
+包含利用Soapsuds.exe命令行工具和用户代码在元数据和远程处理基础结构的XML架构之间相互转的类。
+ System.Runtime.Remoting.Proxies
+包含控制和提供代理功能的类。代理时作为远程对象映像的本地对象。代理使客户端可以跨远程处理边界访问对象。
+ System.Runtime.Remoting.Services
+包含为.NET框架提供功能的服务类。
+ System.Runtime.Serialization
+包含可以用于序列化和反序列化对象的类。序列化是对象或对象图转换为线性的字节序列以存储或传输到其他位置的过程。反序列化是接受存储的信息并用这些信息重新建立对象的过程。
+ System.Runtime.Serialization.Formatters
+提供由序列化格式化程序使用的通用枚举、接口和类。
+ System.Runtime.Serialization.Formatters.Binary
+包含可以用二进制格式序列化和反序列化对象的BinaryFormatter类。
+ System.Runtime.Serialization.Formatters.Soap
+包含可以用SOAP格式序列化和反序列化对象的SoapForamtter类。
+ System.Security
+提供公共语言运行库安全系统的基础结构，包括权限的基类。
+ System.Security.Cryptography
+提供加密服务，包括数据的安全编码和解码，以及其他许多操作，如散列处理、随即生成和消息身份验证。
+ System.Security.Cryptography.X509Certificates
+包含Authenticode X.509 v.3证书的公共语言运行库实现。此证书用唯一明确标识证书持有者的私钥签名。
+ System.Securiyt.Cryptography.XML
+包含在.NET框架安全系统中供独占使用的XML模型。此XML模型不用于常规用途。此模型允许对XML对象进行数字签名。
+ System.Security.Permaissions
+定义根据策略控制操作和资源访问的类。
+ System.Security.Policy
+包含代码组、成员条件和证据。这三种类性的类用于创建由公共语言运行库安全策略系统应用的规则。证据类是安全策略的输入，成员条件是开关；二者共同创建策略语句并确定授予的权限集。策略级别代码组是策略层次的结构。代码组是规则的封装并且在策略级别中分层排列。
+ System.Security.Principal
+定义表示运行代码的安全上下文的用户对象。
+ System.ServiceProcess
+提供使您可以实现、安装和控制Windows服务应用程序的类。服务是不需要用户界面、长期运行的可执行文件。实现服务的过程包括：从ServiceBase类继承，定义在传入启动、停止、暂定和继续命令时处理的特定行为，以及定义当前系统关闭时所采取的自定义行为和操作。
+ System.Text
+包含表示ASCII、Unicode、UTF-7和UTF-8字符编码的类，用于在字符块和字节块之间相互转换的抽象基类，以及不需要创建字符串的中间实例就可以操作和格式化字符串对象的帮助器类。
+ System.Text.RegularExpressions
+提供对.NET框架正则表达式引擎的访问的类。此命名空间提供可在Microsoft.NET框架上运行的任何平台或语言中使用的正则表达式功能。
+ System.Threading
+提供支持多线程编程的类和接口。此命名空间包括管理线程组的ThreadPool类、允许在指定的一段时间后调用委托的Time类，以及用于同步互斥的线程的Mutex类。此命名空间还提供用于线程安排、等待通知和死锁的类。
+ System.Timers
+提供允许以指定的间隔引发时间的Timer组件。
+ System.Web
+提供支持浏览器/服务器通信的类和接口。此命名空间包括提供有关当前HTTP请求的大量信息的HTTPResponse类、管理HTTP到客户端的输出的HTTPResponse类，以及提供对服务器端实用工具和进程访问的HTTPServerUitility对象。System.Web还包括用于Cookie操作、文件传输、异常信息和输出缓存控制的类。
+ System.Web.Caching
+提供用于在服务器上缓存常用资源的类。这些资源包括ASP.NET页、Web服务和用户空间。另外，缓存词典可以供您存储常用资源，如散列表和其他数据结构。
+ System.Web.Configuration
+包含用于设置ASP.NET配置的类。
+ System.Web.Hosting
+提供对Microsoft Internet Information Server(IIS)外部的托管应用程序承载ASP.NET应用程序功能。
+ System.Web.Mail
+包含使用CDOSYS消息组建构造和发送消息的类。邮件消息通过Microsoft Windows 2000中内置的SMTP邮件服务或任意的SMTP服务器发送。此命名空间中的类可从ASP.NET或任何托管应用程序中使用。
+ System.Web.Security
+包含用于在Web服务器应用程序中实现ASP.NET安全的类。
+ System.Web.Services
+包含可以生成和使用Web服务的类。Web服务式驻留在Web服务器上并通过标准Internet协议公开的可编程实体（XML、SOAP）。
+ System.Web.Services.Configuration
+由一些类组成，这些类配置用ASP.NET创建的XML Web services的运行方式。
+ System.Web.Service.Description
+由一些类组成，这些类使您能够使用Web服务描述语言（WSDL）公开描述SML Web services。此命名空间中的每一个类对应于WSDL规范中的一个特定元素，并且类层次机构对应于有效的WSDL文档的XML结构。
+ System.WebServices.Discovery
+由一些类组成，这些类允许XML Web Services客户端通过称为“XML Web services发现”的进程来定位Web服务其上可用的XML Web services。
+ System.Web.Services.Protocols
+由一些类组成，这些类定义在通信期间通过网络在XML Web services 客户端和用ASP.NET创建的XML Web services之间传输数据的协议。
+ System.Web.SessionState
+提供支持在服务器上存储特定于Web应用程序中的单个客户端的数据的类和接口。会话转台数据用于向客户端提供与应用程序的持久连接的外观。状态信息可以存储在本地进程内存中，或者，对于网络场配置来说，可以使用ASP.NET状态服务或SQL Server数据库状态信息存储进程外。
+ System.Web.UI
+提供创建以Web页上用户界面形式出现在Web应用程序中的空间和页的类和接口。此命名空间包括Control类，该类为所有空间（不论使HTML空间、Web空间还是用户控件）提供一组通用功能。它还包括Page空间，每当对Web应用程序中的页发出请求时，都会自动生成此空间。另外还提供了一些类，这些类提供Web窗体服务器空间数据绑定功能、保存给定控件或页的视图状态的能力，以及对可编程控件和文本空间都适用的分析通能。
+ System.Web.UI.Design
+包含用于扩展Web用户界面设计时的支持类。
+ System.Web.UI.Design.WebControls
+包含用于扩展Web服务器控件设计时所支持的类。
+ System.Web.UI.HtmlControls
+提供可以在Web页上创建HTML服务器控件的类。HTML服务器控件在服务器上运行，并直接映射到所有浏览器支持的标准HTML标记。这使您能够以编程方式控制Web页上的HTML元素。
+ System.Web.UI.WebControls
+包含可以在Web服务器控件的类。Web控件在服务器上运行，并包括窗体控件（如按钮和文本框）以及特出用途的控件（如日历）。这使您能构以编程方式控制Web页上的这些元素。Web控件比HTML控件更抽象。它们的对象模型不一定反映HTML语法。
+ System.Windows.Forms
+包含用于创建基于Windows的应用程序的类，这些应用程序可以充分利用Microsoft Windows操作系统中的丰富用户界面功能。
+ System.Windows.Forms.Design
+包含可用于扩展Windows窗体设计时支持的类。
+ System.Xml
+提供基于标准的XML架构（XSD）支持。
+ System.Xml.Serialization
+包含用于将对象序列化为XML格式的文档或流的类。
+ System.Xml.Xpath
+包含Xpath分析器和计算引擎。它支持W3C XML路径语言（XPath）1.0版建议（www.w3.org/TR/xpath）。
+ System.Xml.Xsl
+提供可扩展样式表转换（XSLT）支持。它支持W3C XSL转换（XSLT）1.0版建议（www.w3.org/TR/xslt）
