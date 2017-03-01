@@ -24,6 +24,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{9C2D9A20-31A1-48DF-B302-5201D2B5A740}"
 	ProjectSection(SolutionItems) = preProject
 		命名空间说明.txt = 命名空间说明.txt
+		常用正则表达式.txt = 常用正则表达式.txt
 	EndProjectSection
 EndProject
 Global
