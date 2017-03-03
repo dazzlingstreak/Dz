@@ -50,6 +50,19 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="委托和事件\DelegateEvent_Test.cs" />
+    <Compile Include="设计模式\代理模式\IImage.cs" />
+    <Compile Include="设计模式\代理模式\ProxyImage.cs" />
+    <Compile Include="设计模式\代理模式\RealImage.cs" />
+    <Compile Include="设计模式\工厂方法模式\AbstractHero.cs" />
+    <Compile Include="设计模式\工厂方法模式\IHeroFactory.cs" />
+    <Compile Include="设计模式\装饰器模式\ConcreteDecorate.cs" />
+    <Compile Include="设计模式\装饰器模式\Decorate.cs" />
+    <Compile Include="设计模式\装饰器模式\IMessageWriter.cs" />
+    <Compile Include="设计模式\装饰器模式\MessageWriter.cs" />
+    <Compile Include="设计模式\观察者模式\AbstractSubject.cs" />
+    <Compile Include="设计模式\观察者模式\AbstractObserver.cs" />
+    <Compile Include="设计模式\访问者模式\AbstractSpot.cs" />
+    <Compile Include="设计模式\访问者模式\AbstractVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
@@ -67,5 +80,13 @@
       <Name>Dz.Redis</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="设计模式\readme.txt" />
+    <Content Include="设计模式\代理模式\readme.txt" />
+    <Content Include="设计模式\装饰器模式\readme.txt" />
+    <Content Include="设计模式\观察者模式\readme.txt" />
+    <Content Include="设计模式\访问者模式\readme.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
