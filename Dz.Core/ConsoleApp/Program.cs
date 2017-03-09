@@ -16,6 +16,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using FluentValidation;
+using Ninject;
+using ConsoleApp.IOC.Model;
+using ConsoleApp.IOC.Ninject;
 
 namespace ConsoleApp
 {
@@ -137,6 +140,17 @@ namespace ConsoleApp
 
             //var player = new Player();
             //var rlt = new UserValidator().Validate(player);
+
+            #endregion
+
+            #region Ninject
+
+            IKernel ninjectKernel = new StandardKernel();
+            ninjectKernel.Bind<IClub>().To<NewBee>().WhenInjectedInto<DAC>();
+            ninjectKernel.Bind<IClub>().To<Wings>().WhenInjectedInto<BOSTON_MAJOR>();
+
+            e_sports sport1 = ninjectKernel.Get<DAC>();
+            e_sports sport2  =ninjectKernel.Get<BOSTON_MAJOR>();
 
             #endregion
 
