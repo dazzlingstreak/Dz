@@ -81,7 +81,7 @@ namespace ConsoleApp
     /// <summary>
     /// 比赛选手
     /// </summary>
-    class Player
+    public class Player
     {
         public string Name { get; set; }
 

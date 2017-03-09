@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26206.0
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.Redis", "Dz.Redis\Dz.Redis.csproj", "{BB4D68BE-215D-4860-A861-8699046EB56C}"
 EndProject
@@ -26,6 +26,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{9C2D9A20-31A
 		命名空间说明.txt = 命名空间说明.txt
 		常用正则表达式.txt = 常用正则表达式.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{2A82F370-3361-40A5-BCA8-0B6BFF0B8F06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.WebApi", "Dz.WebApi\Dz.WebApi.csproj", "{A46DF9D8-E6F1-47C1-80F0-F957C34EDB0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,14 @@ Global
 		{ED82CE3E-804B-4412-BBEC-EDBCBC3BBA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED82CE3E-804B-4412-BBEC-EDBCBC3BBA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED82CE3E-804B-4412-BBEC-EDBCBC3BBA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A82F370-3361-40A5-BCA8-0B6BFF0B8F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A82F370-3361-40A5-BCA8-0B6BFF0B8F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A82F370-3361-40A5-BCA8-0B6BFF0B8F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A82F370-3361-40A5-BCA8-0B6BFF0B8F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46DF9D8-E6F1-47C1-80F0-F957C34EDB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46DF9D8-E6F1-47C1-80F0-F957C34EDB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46DF9D8-E6F1-47C1-80F0-F957C34EDB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46DF9D8-E6F1-47C1-80F0-F957C34EDB0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

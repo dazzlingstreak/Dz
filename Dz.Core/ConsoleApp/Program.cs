@@ -15,6 +15,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
+using FluentValidation;
 
 namespace ConsoleApp
 {
@@ -123,18 +124,33 @@ namespace ConsoleApp
             //var image = new ProxyImage("test.jpg");
             //image.Display();
 
-            var msgWriter = new MessageWriter();
-            msgWriter.WriteMessage("Hello World");
-            Console.WriteLine("----装饰开始----");
+            //var msgWriter = new MessageWriter();
+            //msgWriter.WriteMessage("Hello World");
+            //Console.WriteLine("----装饰开始----");
 
-            var decorateMsgWriter = new DigitallySignedDecorate(new EncryptedDecorate(new CompressedDecorate(new SecureDecorate(msgWriter))));
-            decorateMsgWriter.WriteMessage("Hello World");
+            //var decorateMsgWriter = new DigitallySignedDecorate(new EncryptedDecorate(new CompressedDecorate(new SecureDecorate(msgWriter))));
+            //decorateMsgWriter.WriteMessage("Hello World");
+
+            #endregion
+
+            #region FluentValidation
+
+            //var player = new Player();
+            //var rlt = new UserValidator().Validate(player);
 
             #endregion
 
             Console.ReadLine();
 
 
+        }
+    }
+
+    public class UserValidator : AbstractValidator<Player>
+    {
+        public UserValidator()
+        {
+            RuleFor(user => user.Name).NotNull().WithMessage("用户名不能为空");
         }
     }
 }
