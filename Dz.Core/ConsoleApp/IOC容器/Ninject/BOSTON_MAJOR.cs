@@ -1,4 +1,5 @@
 ﻿using ConsoleApp.IOC.Model;
+using Ninject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,17 +10,19 @@ namespace ConsoleApp.IOC.Ninject
 {
     public class BOSTON_MAJOR : e_sports
     {
-        public BOSTON_MAJOR()
-        {
+        public IClub _club;
 
+        public BOSTON_MAJOR(IClub club)
+        {
+            _club = club;
         }
 
-        public override void InviteClub(IClub club)
+        public override void InviteClub()
         {
-            club.Register();
-            club.PlayerIntroduction();
-            club.Train();
-            club.Competition();
+            _club.Register();
+            _club.PlayerIntroduction();
+            _club.Train();
+            _club.Competition();
         }
     }
 }

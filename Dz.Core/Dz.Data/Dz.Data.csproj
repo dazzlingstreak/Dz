@@ -52,7 +52,6 @@
     <Compile Include="DBHelper\Tools\Checker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />

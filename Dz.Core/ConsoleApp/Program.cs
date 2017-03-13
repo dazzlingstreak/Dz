@@ -145,12 +145,10 @@ namespace ConsoleApp
 
             #region Ninject
 
-            IKernel ninjectKernel = new StandardKernel();
-            ninjectKernel.Bind<IClub>().To<NewBee>().WhenInjectedInto<DAC>();
-            ninjectKernel.Bind<IClub>().To<Wings>().WhenInjectedInto<BOSTON_MAJOR>();
+            //IKernel ninjectKernel = new StandardKernel();
+            //ninjectKernel.Bind<IClub>().To<Wings>().WhenInjectedInto<BOSTON_MAJOR>();
+            //var a = ninjectKernel.Get<BOSTON_MAJOR>();
 
-            e_sports sport1 = ninjectKernel.Get<DAC>();
-            e_sports sport2  =ninjectKernel.Get<BOSTON_MAJOR>();
 
             #endregion
 

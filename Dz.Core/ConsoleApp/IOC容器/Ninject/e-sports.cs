@@ -13,6 +13,6 @@ namespace ConsoleApp.IOC.Ninject
         /// 邀请战队
         /// </summary>
         /// <param name="club"></param>
-        public abstract void InviteClub(IClub club);
+        public abstract void InviteClub();
     }
 }

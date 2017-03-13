@@ -31,6 +31,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.WebApi", "Dz.WebApi\Dz.WebApi.csproj", "{A46DF9D8-E6F1-47C1-80F0-F957C34EDB0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.Hangfire", "Dz.Hangfire\Dz.Hangfire.csproj", "{AF6FA228-58BF-4BA2-9EE9-C730B49EA91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.Hangfire.Scheduler", "Dz.Hangfire.Scheduler\Dz.Hangfire.Scheduler.csproj", "{8419EB8F-56C3-4882-B01C-837C87D99B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dz.Hangfire.Test", "Dz.Hangfire.Test\Dz.Hangfire.Test.csproj", "{E3B01825-83A7-4EB1-B5A3-62EE27BF7D87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +79,18 @@ Global
 		{A46DF9D8-E6F1-47C1-80F0-F957C34EDB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A46DF9D8-E6F1-47C1-80F0-F957C34EDB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A46DF9D8-E6F1-47C1-80F0-F957C34EDB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6FA228-58BF-4BA2-9EE9-C730B49EA91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6FA228-58BF-4BA2-9EE9-C730B49EA91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6FA228-58BF-4BA2-9EE9-C730B49EA91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6FA228-58BF-4BA2-9EE9-C730B49EA91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8419EB8F-56C3-4882-B01C-837C87D99B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8419EB8F-56C3-4882-B01C-837C87D99B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8419EB8F-56C3-4882-B01C-837C87D99B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8419EB8F-56C3-4882-B01C-837C87D99B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B01825-83A7-4EB1-B5A3-62EE27BF7D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B01825-83A7-4EB1-B5A3-62EE27BF7D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B01825-83A7-4EB1-B5A3-62EE27BF7D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B01825-83A7-4EB1-B5A3-62EE27BF7D87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

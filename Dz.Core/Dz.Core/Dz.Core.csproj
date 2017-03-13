@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmailSend\EmailClient.cs" />
     <Compile Include="HttpClient\HttpClientHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Random\RNGCryptoServiceProviderExtensions.cs" />

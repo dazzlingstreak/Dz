@@ -9,10 +9,19 @@ namespace ConsoleApp.IOC.Ninject
 {
     public class DAC : e_sports
     {
-        public override void InviteClub(IClub club)
+        public IClub _club;
+
+        public string Address { get; set; }
+
+        public DAC(IClub club)
         {
-            club.PlayerIntroduction();
-            club.Competition();
+            _club = club;
+        }
+
+        public override void InviteClub()
+        {
+            _club.PlayerIntroduction();
+            _club.Competition();
         }
     }
 }
